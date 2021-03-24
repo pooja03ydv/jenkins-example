@@ -52,10 +52,11 @@
             <artifactId>junit-platform-runner</artifactId>
             <version>${junit.platform.version}</version>
         </dependency>
+    <dependencies>
 
     <distributionManagement>
         <repository>
-            <id>maven-build</id>
+            <id>snapshot</id>
             <url>https://artrepo1.jfrog.io/artifactory/pproy/</url>
         </repository>
     </distributionManagement>
