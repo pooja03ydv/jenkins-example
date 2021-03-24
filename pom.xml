@@ -55,7 +55,7 @@
 
     <distributionManagement>
         <repository>
-            <id>myMavenRepo.write</id>
+            <id>maven-build</id>
             <url>https://artrepo1.jfrog.io/artifactory/pproy/</url>
         </repository>
     </distributionManagement>
