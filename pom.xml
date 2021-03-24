@@ -52,8 +52,15 @@
             <artifactId>junit-platform-runner</artifactId>
             <version>${junit.platform.version}</version>
         </dependency>
-    
-    <dependencies>
+
+    </dependencies>
+
+    <repositories>
+        <repository>
+            <id>central</id>
+            <url>https://artrepo1.jfrog.io/artifactory/pproy/</url>
+        </repository>
+    </repositories>
 
     <distributionManagement>
         <repository>
